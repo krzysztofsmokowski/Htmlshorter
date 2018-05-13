@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  html_shorter:
+    build: .
+    ports:
+        - "80:80"
